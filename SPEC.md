@@ -11,7 +11,7 @@
 
 | # | 层位 | 故障形态 | 修复手段 | 状态 |
 |---|---|---|---|---|
-| 1 | **工具层** | 参数结构错 / 调用混入文本 / JSON 截断 / 调用风暴 | 四 pass（flatten/scavenge/truncation/storm）| ✅ v0.1 已实现 |
+| 1 | **工具层** | 参数结构错 / 调用混入文本 / JSON 截断 / 调用风暴 | 四 pass（flatten/scavenge/truncation/storm）| [通过] v0.1 已实现 |
 | 2 | **输出层** | 结构化输出违规（schema 不符 / 格式漂移）| schema 校验 + 本地修复（不重试也能救回大部分）| 计划 v0.2 |
 | 3 | **检索层** | 误检索（相关性低 / 覆盖不足）| 查询重写 + 对齐检查（Corrective RAG 的 Retrieve-Reflect-Refine）| 计划 v0.2 |
 | 4 | **记忆层** | 记忆投毒 / 过时条目 | 折叠回滚 + 投毒移除（与 PPBExt-Memory 协同）| 计划 v0.2 |
