@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "n_cases": 21,
+    "zero_api": true
+  },
+  "tool_layer": {
+    "n": 9,
+    "no_repair": 0,
+    "with_repair": 9,
+    "storm_guard": true
+  },
+  "schema_layer": {
+    "n": 8,
+    "no_repair": 1,
+    "with_repair": 8
+  },
+  "retrieval_layer": {
+    "n": 4,
+    "no_repair": 3,
+    "with_repair": 4
+  },
+  "total": {
+    "n": 21,
+    "no_repair": 4,
+    "with_repair": 21,
+    "restoration_lift": 0.81
+  }
+}
