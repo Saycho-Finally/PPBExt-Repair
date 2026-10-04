@@ -6,8 +6,6 @@ JSON 被截断、同一工具反复空转。本外挂用**四 pass 流水线**�
 
 > 作者：Saycho-Finally（独立研究者） ｜ AI 使用声明见 [AI_DISCLOSURE.md](AI_DISCLOSURE.md) ｜ License: MIT ｜ 零依赖 ｜ Python ≥3.10
 
-> License: MIT ｜ 零依赖 ｜ Python ≥3.10
-
 ---
 
 ## 四 pass 修复链
