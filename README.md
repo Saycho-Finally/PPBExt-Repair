@@ -1,8 +1,10 @@
-# PPBExt-Repair ｜ 补遗：工具调用修复外挂
+# PPBExt-Repair ｜ 补遗：工具调用修复外挂 · 四 pass 流水线实测
 
 **一句话**：LLM 的工具调用在真实管线里会以四种方式坏掉——参数结构不对、调用混在自然语言里、
 JSON 被截断、同一工具反复空转。本外挂用**四 pass 流水线**逐类修复，修不了的明确拒绝
 （绝不静默传坏参数）。
+
+> 作者：Saycho-Finally（独立研究者） ｜ AI 使用声明见 [AI_DISCLOSURE.md](AI_DISCLOSURE.md) ｜ License: MIT ｜ 零依赖 ｜ Python ≥3.10
 
 > License: MIT ｜ 零依赖 ｜ Python ≥3.10
 
