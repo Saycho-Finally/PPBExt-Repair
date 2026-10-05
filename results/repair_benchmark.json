@@ -1,6 +1,7 @@
 {
   "meta": {
-    "n_cases": 21,
+    "n_cases": 32,
+    "n_layers": 5,
     "zero_api": true
   },
   "tool_layer": {
@@ -19,10 +20,20 @@
     "no_repair": 3,
     "with_repair": 4
   },
+  "memory_layer": {
+    "n": 6,
+    "no_repair": 1,
+    "with_repair": 6
+  },
+  "plan_layer": {
+    "n": 5,
+    "no_repair": 1,
+    "with_repair": 5
+  },
   "total": {
-    "n": 21,
-    "no_repair": 4,
-    "with_repair": 21,
-    "restoration_lift": 0.81
+    "n": 32,
+    "no_repair": 6,
+    "with_repair": 32,
+    "restoration_lift": 0.812
   }
 }
